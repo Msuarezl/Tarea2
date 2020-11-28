@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="254dp"
+        android:layout_height="42dp"
+        android:layout_x="110dp"
+        android:layout_y="32dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Inicio De Sesion!"
+        android:textAlignment="center"
+        android:textSize="80px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.617"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:layout_x="117dp"
+        android:layout_y="123dp"
+        android:text="User"
+        android:textAlignment="inherit"
+        android:textSize="80px"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="124dp"
+        android:layout_height="46dp"
+        android:layout_x="115dp"
+        android:layout_y="243dp"
+        android:text="Password"
+        android:textAlignment="inherit"
+        android:textSize="80px"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_x="120dp"
+        android:layout_y="182dp"
+        android:textAlignment="inherit"
+        android:textSize="80px"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="113dp"
+        android:layout_y="302dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <Button
+        android:layout_width="211dp"
+        android:layout_height="59dp"
+        android:layout_x="108dp"
+        android:layout_y="495dp"
+        android:background="@color/black"
+        android:onClick="Inicio"
+        android:text="Login"
+        android:textAlignment="inherit"
+        android:textSize="80px"
+        tools:ignore="MissingConstraints,OnClick"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="298dp" />
+</AbsoluteLayout>
